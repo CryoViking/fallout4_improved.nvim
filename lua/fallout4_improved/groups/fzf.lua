@@ -54,7 +54,7 @@ function M.get(c)
     -- FzfLuaFzfHeader 	= { }, -- FzfLuaTitle 	fzf.header 	fzf's header
     -- FzfLuaFzfInfo 	= { }, -- NonText 	fzf.info 	fzf's info
     -- FzfLuaFzfMarker 	= { }, -- FzfLuaFzfPointer 	fzf.marker 	fzf's marker
-    -- FzfLuaFzfSpinner 	= { }, -- FzfLuaFzfPointer 	fzf.spinner 	fzf's spinner
+    -- FzfLuaFzfSpinner 	= { }, -- FzfLuaFzfPointer 	fzf's spinner 	fzf's spinner
     -- FzfLuaFzfPrompt 	= { }, -- Special 	fzf.prompt 	fzf's prompt
     -- FzfLuaFzfQuery 	= { }, -- FzfLuaNormal 	fzf.query 	fzf's header
   }

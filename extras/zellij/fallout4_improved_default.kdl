@@ -1,0 +1,19 @@
+// fallout4_improved (default) Zellij Colours
+// Add file to `CONFIG_DIR/themes` as per this:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+  fallout4_improved_default {
+    fg      "#23D962"
+    bg      "#000000"
+    black   "#000000"
+    red     "#1b733e"
+    green   "#23D962"
+    yellow  "#36cc68"
+    blue    "#20807d"
+    magenta "#25916f"
+    cyan    "#2cbba0"
+    white   "#23D962"
+    orange  "#2fb85d"
+  }
+}

@@ -1,0 +1,38 @@
+# fallout4_improved (Fallout 4 Terminal) theme for Fish Shell
+# To use, add this to your config.fish file:
+# set fish_theme fallout4_improved_default
+
+# Base colors (Fallout 4 Terminal Inspired)
+fish_color_normal 23D962
+fish_color_autosuggestion 195e32
+fish_color_cancel 1b733e --reverse
+fish_color_command 2cbba0
+fish_color_comment 195e32
+fish_color_cwd 23D962
+fish_color_cwd_root 1b733e
+fish_color_end 2cbba0
+fish_color_error 1b733e
+fish_color_escape 90ffb7
+fish_color_history_current --bold
+fish_color_host 777777
+fish_color_host_remote 90ffb7
+fish_color_operator 2cbba0
+fish_color_param 36cc68
+fish_color_quote bdbdbd
+fish_color_redirection 36cc68 --bold
+fish_color_search_match d1ffdf --background=103821 --bold
+fish_color_selection d1ffdf --background=103821 --bold
+fish_color_status 1b733e
+fish_color_user 23D962
+fish_color_valid_path --underline
+fish_color_option 36cc68
+
+# Pager (completion menu) colors (Fallout 4 Terminal Inspired)
+fish_pager_color_completion 23D962
+fish_pager_color_description 195e32
+fish_pager_color_prefix 23D962 --bold --underline
+fish_pager_color_progress 23D962 --background=103821 --bold
+fish_pager_color_selected_background --background=103821
+fish_pager_color_selected_completion d1ffdf
+fish_pager_color_selected_description 195e32
+fish_pager_color_selected_prefix d1ffdf --bold --underline

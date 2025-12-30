@@ -1,0 +1,104 @@
+# fallout4_improved (Fallout 4 Terminal) theme for eza
+# Place this file in ~/.config/eza/theme.yml
+colourful: true
+
+filekinds:
+  normal: { foreground: "#23D962" }
+  directory: { foreground: "#2cbba0" }
+  symlink: { foreground: "#d1ffdf" }
+  pipe: { foreground: "#195e32" }
+  block_device: { foreground: "#1b733e" }
+  char_device: { foreground: "#1b733e" }
+  socket: { foreground: "#195e32" }
+  special: { foreground: "#90ffb7" }
+  executable: { foreground: "#2fb85d" }
+  mount_point: { foreground: "#36cc68" }
+
+perms:
+  user_read: { foreground: "#23D962" }
+  user_write: { foreground: "#d1ffdf" }
+  user_execute_file: { foreground: "#2fb85d" }
+  user_execute_other: { foreground: "#2fb85d" }
+  group_read: { foreground: "#23D962" }
+  group_write: { foreground: "#d1ffdf" }
+  group_execute: { foreground: "#2fb85d" }
+  other_read: { foreground: "#195e32" }
+  other_write: { foreground: "#d1ffdf" }
+  other_execute: { foreground: "#2fb85d" }
+  special_user_file: { foreground: "#90ffb7" }
+  special_other: { foreground: "#195e32" }
+  attribute: { foreground: "#195e32" }
+
+size:
+  major: { foreground: "#195e32" }
+  minor: { foreground: "#2cbba0" }
+  number_byte: { foreground: "#23D962" }
+  number_kilo: { foreground: "#23D962" }
+  number_mega: { foreground: "#2cbba0" }
+  number_giga: { foreground: "#90ffb7" }
+  number_huge: { foreground: "#90ffb7" }
+  unit_byte: { foreground: "#195e32" }
+  unit_kilo: { foreground: "#2cbba0" }
+  unit_mega: { foreground: "#90ffb7" }
+  unit_giga: { foreground: "#90ffb7" }
+  unit_huge: { foreground: "#36cc68" }
+
+users:
+  user_you: { foreground: "#195e32" }
+  user_root: { foreground: "#1b733e" }
+  user_other: { foreground: "#23D962" }
+  group_yours: { foreground: "#23D962" }
+  group_other: { foreground: "#195e32" }
+  group_root: { foreground: "#1b733e" }
+
+links:
+  normal: { foreground: "#2cbba0" }
+  multi_link_file: { foreground: "#36cc68" }
+
+git:
+  new: { foreground: "#2fb85d" }
+  modified: { foreground: "#d1ffdf" }
+  deleted: { foreground: "#1b733e" }
+  renamed: { foreground: "#2cbba0" }
+  typechange: { foreground: "#90ffb7" }
+  ignored: { foreground: "#195e32" }
+  conflicted: { foreground: "#1b733e" }
+
+git_repo:
+  branch_main: { foreground: "#d1ffdf" }
+  branch_other: { foreground: "#23D962" }
+  git_clean: { foreground: "#2fb85d" }
+  git_dirty: { foreground: "#1b733e" }
+
+security_context:
+  colon: { foreground: "#195e32" }
+  user: { foreground: "#23D962" }
+  role: { foreground: "#90ffb7" }
+  typ: { foreground: "#195e32" }
+  range: { foreground: "#90ffb7" }
+
+file_type:
+  image: { foreground: "#d1ffdf" }
+  video: { foreground: "#1b733e" }
+  music: { foreground: "#2fb85d" }
+  lossless: { foreground: "#2cbba0" }
+  crypto: { foreground: "#195e32" }
+  document: { foreground: "#23D962" }
+  compressed: { foreground: "#90ffb7" }
+  temp: { foreground: "#1b733e" }
+  compiled: { foreground: "#36cc68" }
+  build: { foreground: "#195e32" }
+  source: { foreground: "#2cbba0" }
+
+punctuation: { foreground: "#195e32" }
+date: { foreground: "#23D962" }
+inode: { foreground: "#195e32" }
+blocks: { foreground: "#777777" }
+header: { foreground: "#23D962" }
+octal: { foreground: "#2cbba0" }
+flags: { foreground: "#90ffb7" }
+
+symlink_path: { foreground: "#d1ffdf" }
+control_char: { foreground: "#36cc68" }
+broken_symlink: { foreground: "#1b733e" }
+broken_path_overlay: { foreground: "#195e32" }
